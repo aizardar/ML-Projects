@@ -7,3 +7,16 @@ which contains 25,000 images. Here, we use a subset of the full dataset to decre
 
 #################################################################################################
 
+
+Image_Classification_part_2
+------------------------------------------------------------
+In this notebook we will build on the model we created in previous one to classify cats vs. dogs, and 
+improve accuracy by employing a couple strategies to reduce overfitting: data augmentation and dropout.
+
+We will follow these steps:
+
+-Explore how data augmentation works by making random transformations to training images.
+-Add data augmentation to our data preprocessing.
+-Add dropout to the convnet.
+-Retrain the model and evaluate loss and accuracy.
+#################################################################################################
