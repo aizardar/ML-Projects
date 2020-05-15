@@ -1,1 +1,9 @@
-t
+Image_Classification_part_1
+------------------------------------------------------------
+In this tutorial, we will build a Cat vs. Dog Image Classification using a Convnets from Scratch
+
+NOTE: The 2,000 images used in this exercise are excerpted from the "Dogs vs. Cats" dataset available on Kaggle, 
+which contains 25,000 images. Here, we use a subset of the full dataset to decrease training time for educational purposes.
+
+#################################################################################################
+
