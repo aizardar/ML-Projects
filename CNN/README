@@ -20,3 +20,15 @@ We will follow these steps:
 -Add dropout to the convnet.
 -Retrain the model and evaluate loss and accuracy.
 #################################################################################################
+
+
+Image_Classification_part_3
+------------------------------------------------------------
+In part 1, we built a convnet from scratch, and were able to achieve an accuracy of about 70%. 
+With the addition of data augmentation and dropout in part 2, we were able to increase accuracy to about 80%. 
+That seems decent, but 20% is still too high of an error rate. Maybe we just don't have enough training data available 
+to properly solve the problem. What other approaches can we try?
+
+In this notebook, we'll look at two techniques for repurposing feature data generated from image models that have 
+already been trained on large sets of data, feature extraction and fine tuning, and use them to improve the 
+accuracy of our cat vs. dog classification model.
