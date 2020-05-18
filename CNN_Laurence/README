@@ -1,5 +1,17 @@
-1. NN_introduction
+1. Simple neural network
 
 In this notebook, we use a simple neural network. Our neural network will learn the relationship between two numbers. 
 By feeding it with a set of Xs, and a set of Ys, it should be able to figure out the relationship between them.
 
+2. Computer Vision using Neural network
+
+In the first notebook, we saw how to create a neural network that figured out the problem we were trying to solve. 
+This gave an explicit example of learned behavior. Of course, in that instance, it was a bit of overkill because it 
+would have been easier to write the function Y=3x+1 directly, instead of bothering with using Machine Learning to 
+learn the relationship between X and Y for a fixed set of values, and extending that for all values.
+
+But what about a scenario where writing rules like that is much more difficult -- for 
+example a computer vision problem? Let's take a look at a scenario where we can recognize 
+different items of clothing, trained from a dataset containing 10 different types.
+
+3. 
