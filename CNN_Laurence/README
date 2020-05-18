@@ -1,5 +1,5 @@
 1. NN_introduction
 
-In this notebook, we use a simple neural network for prediction. 
+In this notebook, we use a simple neural network. Our neural network will learn the relationship between two numbers. 
+By feeding it with a set of Xs, and a set of Ys, it should be able to figure out the relationship between them.
 
-2. 
