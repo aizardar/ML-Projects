@@ -14,4 +14,16 @@ But what about a scenario where writing rules like that is much more difficult -
 example a computer vision problem? Let's take a look at a scenario where we can recognize 
 different items of clothing, trained from a dataset containing 10 different types.
 
-3. 
+3. Convolutions
+
+What are Convolutions?
+In this notebook, we will explore what they are and how they work, and then in next notebook, we will see how to use 
+them in our neural network.
+
+Together with convolutions, we'll use something called 'Pooling', which compresses our image, further 
+emphasising the features. We'll also see how pooling works in this notebook.
+
+Limitations of the previous DNN
+In the last notebok, we saw how to train an image classifier for fashion items using the Fashion MNIST dataset. 
+This gave us a pretty accuract classifier, but there was an obvious constraint: the images were 28x28, grey scale and 
+the item was centered in the image.
