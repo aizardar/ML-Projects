@@ -27,3 +27,8 @@ Limitations of the previous DNN
 In the last notebok, we saw how to train an image classifier for fashion items using the Fashion MNIST dataset. 
 This gave us a pretty accuract classifier, but there was an obvious constraint: the images were 28x28, grey scale and 
 the item was centered in the image.
+
+
+4. MNIST digits classification with CNN
+
+In this notebook, we use CNN to classify digits on the MNIST dataset. 
