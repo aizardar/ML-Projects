@@ -32,3 +32,9 @@ the item was centered in the image.
 4. MNIST digits classification with CNN
 
 In this notebook, we use CNN to classify digits on the MNIST dataset. 
+
+5. Using Convolutions with complex images
+
+In the previous notebook, we used CNN on fashion MNIST dataset to train an image classifier. The subjects in the
+image were centered. But what if a subject is not centered anymore ? In this notebook, we will train an image classifier to recognize 
+features in an image where the subject can be anywhere in an image. 
