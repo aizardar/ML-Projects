@@ -38,3 +38,10 @@ In this notebook, we use CNN to classify digits on the MNIST dataset.
 In the previous notebook, we used CNN on fashion MNIST dataset to train an image classifier. The subjects in the
 image were centered. But what if a subject is not centered anymore ? In this notebook, we will train an image classifier to recognize 
 features in an image where the subject can be anywhere in an image. 
+
+
+6. CNN on sad and happy emojis
+
+Happy or sad dataset which contains 80 images, 40 happy and 40 sad. We create a convolutional neural network 
+that trains to 100% accuracy on these images, which cancels training upon hitting training accuracy of >.999
+
