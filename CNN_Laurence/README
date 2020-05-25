@@ -45,3 +45,11 @@ features in an image where the subject can be anywhere in an image.
 Happy or sad dataset which contains 80 images, 40 happy and 40 sad. We create a convolutional neural network 
 that trains to 100% accuracy on these images, which cancels training upon hitting training accuracy of >.999
 
+7. Training with a Larger Dataset - Cats and Dogs
+
+In the previous notebook we trained a classifier with a horses-v-humans dataset. We saw that 
+despite getting great training results, when we tried to do classification with real images, 
+there were many errors, due primarily to overfitting -- where the network does very well with data that 
+it has previously seen, but poorly with data it hasn't!
+
+In this notebook, we'll look at a real, and very large dataset, and see the impact this has to avoid overfitting.
